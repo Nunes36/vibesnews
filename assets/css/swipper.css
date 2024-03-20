@@ -4,13 +4,20 @@
 .secao_swipper {
     max-width: 390px;
     display: flex;
+    
+}
+
+.carrosel {
+    display: flex;
+    overflow: hidden;
 }
 
 .container_swipper {
     width: var(--largura-swipper);
     align-items: center;
-    margin: 12px;
+    margin: 20px;
     position: relative;
+    
 }
 
 .img_lazer,
@@ -50,6 +57,6 @@
 }
 
 
-.swipper-none {
+/* .swipper-none {
     display: none;
-}
+} */
