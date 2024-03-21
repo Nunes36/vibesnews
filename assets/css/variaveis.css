@@ -3,8 +3,9 @@
 :root {
     --font-principal: "Open Sans", Sans-serif;
     --font-secundaria: "Inter", Arial;
-    --color-font: #000000;
+    --color-font: rgb(0, 0, 0);
     --color-descricao: #ffffff;
+    --color-paragrafo: #4a4343;
     --bg-cabecalho-footer: #B4B4B8;
     --bg-menu: #ffffff;
     --bg-buttom: #F2F2F2;
@@ -27,7 +28,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 60px;
+        padding-top: 45px;
     }
 }
 
