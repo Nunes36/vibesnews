@@ -9,13 +9,15 @@
 
 .carrosel {
     display: flex;
-    overflow: hidden;
+    gap: 1px;
+    margin:  0 20px;
+    /* overflow: hidden; */
 }
 
 .container_swipper {
     width: var(--largura-swipper);
     align-items: center;
-    margin: 20px;
+    margin: 20px 0;
     position: relative;
     
 }

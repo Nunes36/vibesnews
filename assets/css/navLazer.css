@@ -1,0 +1,12 @@
+@import url("variaveis.css");
+@import url("/assets/css/styles.css");
+@import url("/assets/css/footer.css");
+@import url("/assets/css/swipper.css");
+@import url("/assets/css/olimpica.css");
+
+.main_lazer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
