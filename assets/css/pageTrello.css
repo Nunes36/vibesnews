@@ -1,0 +1,48 @@
+@import url("variaveis.css");
+@import url("/assets/css/styles.css");
+@import url("/assets/css/footer.css");
+@import url("/pagevisual.html");
+
+.trello {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figura_trello,
+.img_trello,
+.figura_organizar,
+.img_organizar,
+.figura_exemplo,
+.img_exemplo {
+    width: var(--largura-container);
+}
+
+.box_trello,
+.box_organizar,
+.box_exemplo {
+    width: var(--largura-container);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+}
+
+.title_trello {
+    font-family: var(--font-secundaria);    
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(52, 48, 48);
+    padding: 2px;
+}
+
+.sub_trello,
+.sub_organizar, 
+.sub_exemplo {
+    font-family: var(--font-secundaria);
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--color-paragrafo);
+    padding: 2px;
+}
