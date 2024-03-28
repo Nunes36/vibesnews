@@ -1,0 +1,60 @@
+@import url("/assets/css/variaveis.css");
+@import url("/assets/css/styles.css");
+@import url("/assets/css/footer.css");
+
+.mario_games {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figura_mario,
+.img_mario,
+.figura_fase,
+.img_fase,
+.figura_koopa,
+.img_koopa {
+    width: var(--largura-container);
+}
+
+.title_mario,
+.sub_title {
+    font-family: var(--font-secundaria);    
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(52, 48, 48);
+    padding: 2px;
+}
+
+.sub_mario {
+    font-family: var(--font-secundaria);    
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(52, 48, 48);
+    padding: 2px;
+}
+
+.box_mario,
+.box_fase,
+.box_segundo,
+.box_terceiro {
+    width: var(--largura-container);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px; 
+}
+
+.paragrafo_fase,
+.segundo_paragrafo,
+.terceiro_paragrafo {
+    font-family: var(--font-secundaria);
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--color-paragrafo);
+    padding: 2px;
+}
+
+
+
