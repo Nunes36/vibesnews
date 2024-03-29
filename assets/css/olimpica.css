@@ -1,35 +1,73 @@
-@import url("variaveis.css");
+@import url("/assets/css/variaveis.css");
 
-.olimpica {
-    max-width: 390px;
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .olimpica {
+        max-width: var(--largura-container-tablet);
+    }
+    
+    .container_olimpica {
+        width: var(--largura-container-tablet);
+        align-items: center;
+        margin: 2px;
+        position: relative;
+    }
+    
+    .img_olimpica {
+        width: var(--largura-container-tablet);
+        border-radius: 10px;
+        position: relative;
+    }
+    
+    .box_olimpica {
+        background-color: var(--bg-box);
+        width: var(--largura-container-tablet);
+        position: absolute;
+        top: 133px;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .title_olimpica {
+        font-family: var(--font-secundaria);    
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        padding: 5px;
+    }
 }
 
-.container_olimpica {
-    width: var(--largura-swipper);
-    align-items: center;
-    margin: 12px;
-    position: relative;
-}
-
-.img_olimpica {
-    width: var(--largura-swipper);
-    border-radius: 10px;
-    position: relative;
-}
-
-.box_olimpica {
-    background-color: var(--bg-box);
-    width: var(--largura-swipper);
-    position: absolute;
-    top: 93px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.title_olimpica {
-    font-family: var(--font-secundaria);    
-    font-size: 20px;
-    font-weight: 700;
-    color: white;
-    padding: 5px;
+@media screen and (max-width: 600px) {
+    .olimpica {
+        max-width: 390px;
+    }
+    
+    .container_olimpica {
+        width: var(--largura-swipper);
+        align-items: center;
+        margin: 12px;
+        position: relative;
+    }
+    
+    .img_olimpica {
+        width: var(--largura-swipper);
+        border-radius: 10px;
+        position: relative;
+    }
+    
+    .box_olimpica {
+        background-color: var(--bg-box);
+        width: var(--largura-swipper);
+        position: absolute;
+        top: 93px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .title_olimpica {
+        font-family: var(--font-secundaria);    
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        padding: 5px;
+    }
 }
