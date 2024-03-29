@@ -1,45 +1,96 @@
 @import url("variaveis.css");
 
 
-.audiovisual {
-    max-width: 390px;
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    body {
+        overflow: hidden;
+    }
+
+    .audiovisual {
+        width: var(--largura-container-tablet);
+    }
+
+    .container_audiovisual {
+        width: var(--largura-container-tablet);
+        align-items: center;
+        margin: 2px;
+        position: relative;
+    }
+    
+    .img_audio {
+        width: var(--largura-container-tablet);
+        border-radius: 10px;
+        position: relative;
+        height: 200px;
+    }
+    
+    .box_audiovisual {
+        background-color: var(--bg-box);
+        width: var(--largura-container-tablet);
+        position: absolute;
+        top: 138px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .title_audiovisual {
+        font-family: var(--font-secundaria);    
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        padding: 5px;
+    }
+    
+    .sub_audiovisual{
+        font-family: var(--font-secundaria);
+        font-size: 11px;
+        font-weight: 200;
+        color: white;
+        padding: 5px;
+    }
 }
 
-.container_audiovisual {
-    width: var(--largura-swipper);
-    align-items: center;
-    margin: 12px;
-    position: relative;
-}
-
-.img_audio {
-    width: var(--largura-swipper);
-    border-radius: 10px;
-    position: relative;
-}
-
-.box_audiovisual {
-    background-color: var(--bg-box);
-    width: var(--largura-swipper);
-    position: absolute;
-    top: 91px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.title_audiovisual {
-    font-family: var(--font-secundaria);    
-    font-size: 22px;
-    font-weight: 700;
-    color: white;
-    padding: 5px;
-}
-
-.sub_audiovisual{
-    font-family: var(--font-secundaria);
-    font-size: 9px;
-    font-weight: 200;
-    color: white;
-    padding: 5px;
+@media screen and (max-width: 600px) {
+    .audiovisual {
+        max-width: 390px;
+    }
+    
+    .container_audiovisual {
+        width: var(--largura-swipper);
+        align-items: center;
+        margin: 12px;
+        position: relative;
+    }
+    
+    .img_audio {
+        width: var(--largura-swipper);
+        border-radius: 10px;
+        position: relative;
+    }
+    
+    .box_audiovisual {
+        background-color: var(--bg-box);
+        width: var(--largura-swipper);
+        position: absolute;
+        top: 91px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .title_audiovisual {
+        font-family: var(--font-secundaria);    
+        font-size: 22px;
+        font-weight: 700;
+        color: white;
+        padding: 5px;
+    }
+    
+    .sub_audiovisual{
+        font-family: var(--font-secundaria);
+        font-size: 9px;
+        font-weight: 200;
+        color: white;
+        padding: 5px;
+    }
 }
 
