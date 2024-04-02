@@ -2,49 +2,100 @@
 @import url("/assets/css/styles.css");
 @import url("/assets/css/footer.css");
 
-.fortnite {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media screen and (min-width:600px) and (max-width:900px) {
+    .fortnite {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .figura_fortnite,
+    .img_fortnite,
+    .figura_personagens,
+    .img_personagens,
+    .figura_placa,
+    .img_placa,
+    .figura_epic,
+    .img_epic {
+        width: 890px; 
+    }
+    
+    .box_fortnite,
+    .box_personagem,
+    .box_placa,
+    .box_epic {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px;
+    }
+    
+    .title_fortnite {
+        font-family: var(--font-secundaria);    
+        font-size: 50px;
+        font-weight: 700;
+        color: rgb(52, 48, 48);
+        padding: 2px;
+    }
+    
+    .paragrafo_personagem,
+    .paragrafo_placa,
+    .paragrafo_epic {
+        font-family: var(--font-secundaria);
+        font-size: 25px;
+        font-weight: 300;
+        color: var(--color-paragrafo);
+        padding: 2px;
+    }
 }
 
-.figura_fortnite,
-.img_fortnite,
-.figura_personagens,
-.img_personagens,
-.figura_placa,
-.img_placa,
-.figura_epic,
-.img_epic {
-    width: var(--largura-container); 
-}
-
-.box_fortnite,
-.box_personagem,
-.box_placa,
-.box_epic {
-    width: var(--largura-container);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 25px;
-}
-
-.title_fortnite {
-    font-family: var(--font-secundaria);    
-    font-size: 22px;
-    font-weight: 700;
-    color: rgb(52, 48, 48);
-    padding: 2px;
-}
-
-.paragrafo_personagem,
-.paragrafo_placa,
-.paragrafo_epic {
-    font-family: var(--font-secundaria);
-    font-size: 15px;
-    font-weight: 300;
-    color: var(--color-paragrafo);
-    padding: 2px;
+@media screen and (max-width: 600px) {
+    .fortnite {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .figura_fortnite,
+    .img_fortnite,
+    .figura_personagens,
+    .img_personagens,
+    .figura_placa,
+    .img_placa,
+    .figura_epic,
+    .img_epic {
+        width: var(--largura-container); 
+    }
+    
+    .box_fortnite,
+    .box_personagem,
+    .box_placa,
+    .box_epic {
+        width: var(--largura-container);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px;
+    }
+    
+    .title_fortnite {
+        font-family: var(--font-secundaria);    
+        font-size: 22px;
+        font-weight: 700;
+        color: rgb(52, 48, 48);
+        padding: 2px;
+    }
+    
+    .paragrafo_personagem,
+    .paragrafo_placa,
+    .paragrafo_epic {
+        font-family: var(--font-secundaria);
+        font-size: 15px;
+        font-weight: 300;
+        color: var(--color-paragrafo);
+        padding: 2px;
+    }
 }

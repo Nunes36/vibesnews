@@ -2,56 +2,116 @@
 @import url("/assets/css/styles.css");
 @import url("/assets/css/footer.css");
 
-.olimpica {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media  screen and (min-width: 600px) and (max-width: 900px){
+    .olimpica {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .figura_olimpica,
+    .img_olimpica,
+    .figura_esportes,
+    .img_esportes,
+    .figura_vila,
+    .img_quadra {
+        width: 890px; 
+    }
+
+    .title_olimpica {
+        width: 100%;
+        font-family: var(--font-secundaria);    
+        font-size: 50px;
+        font-weight: 700;
+        color: rgb(52, 48, 48);
+        padding: 2px;
+    }
+
+    .box_olimpica,
+    .box_esportes,
+    .box_salao,
+    address {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px;
+    }
+
+    
+
+    .sub_olimpica,
+    .sub_esportes,
+    .desc_olimpica,
+    .sub_endereço,
+    .desc_salao {
+        font-family: var(--font-secundaria);
+        font-size: 25px;
+        font-weight: 300;
+        color: var(--color-paragrafo);
+        padding: 2px;
+    }
+
+    .sub_endereço {
+        font-style: italic;
+        font-weight: 800;
+    }
 }
 
-.figura_olimpica,
-.img_olimpica,
-.figura_esportes,
-.img_esportes,
-.figura_vila,
-.img_quadra {
-    width: var(--largura-container);
+@media screen and (max-width: 600px) {
+    .olimpica {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .figura_olimpica,
+    .img_olimpica,
+    .figura_esportes,
+    .img_esportes,
+    .figura_vila,
+    .img_quadra {
+        width: var(--largura-container);
+    }
+
+    .title_olimpica {
+        font-family: var(--font-secundaria);    
+        font-size: 22px;
+        font-weight: 700;
+        color: rgb(52, 48, 48);
+        padding: 2px;
+    }
+
+    .box_olimpica,
+    .box_esportes,
+    .box_salao,
+    address {
+        width: var(--largura-container);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px;
+    }
+
+    
+
+    .sub_olimpica,
+    .sub_esportes,
+    .desc_olimpica,
+    .sub_endereço,
+    .desc_salao {
+        font-family: var(--font-secundaria);
+        font-size: 15px;
+        font-weight: 300;
+        color: var(--color-paragrafo);
+        padding: 2px;
+    }
+
+    .sub_endereço {
+        font-style: italic;
+        font-weight: 800;
+    }
 }
 
-.title_olimpica {
-    font-family: var(--font-secundaria);    
-    font-size: 22px;
-    font-weight: 700;
-    color: rgb(52, 48, 48);
-    padding: 2px;
-}
-
-.box_olimpica,
-.box_esportes,
-.box_salao,
-address {
-    width: var(--largura-container);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 25px;
-}
-
- 
-
-.sub_olimpica,
-.sub_esportes,
-.desc_olimpica,
-.sub_endereço,
-.desc_salao {
-    font-family: var(--font-secundaria);
-    font-size: 15px;
-    font-weight: 300;
-    color: var(--color-paragrafo);
-    padding: 2px;
-}
-
-.sub_endereço {
-    font-style: italic;
-    font-weight: 800;
-}
