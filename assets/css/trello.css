@@ -9,7 +9,7 @@
     .container_trello {
         width: var(--largura-container-tablet);
         align-items: center;
-        margin: 12px;
+        margin: 2px;
         position: relative;
     }
     
