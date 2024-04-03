@@ -17,12 +17,12 @@
     .figura_gravacao,
     .img_visual,
     .img_gravacao {
-        width: 890px;
+        width: 90vw;
     }
 
     .box_visual,
     .box_gravacao {
-        width: 100%;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         gap: 20px;

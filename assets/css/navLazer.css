@@ -4,9 +4,67 @@
 @import url("/assets/css/swipper.css");
 @import url("/assets/css/olimpica.css");
 
-.main_lazer {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .main_lazer {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .olimpica-tablet {
+        width: 90vw;
+    }
+
+    .container_tablet-lazer {
+        width: 90vw;
+        height: 390px;
+        background-image: url("/assets/img/esporte_e_lazer.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .container_olimpica-tablet {
+        width: 90vw;
+        height: 390px;
+        background-image: url("/assets/img/img_olimpicosInicial.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0px;
+        border-radius: 10px;
+    }
+
+    .text_tablet-lazer {
+        width: 89vw;
+        position: absolute;
+        top: 290px;
+    }
+
+    .box_text-olimpica {
+        width: 90vw;
+        position: absolute;
+        top: 280px;
+    }
+
+    .title-olimpica-tablet {
+        font-size: 40px;
+    }
+
+    .img_lazer,
+    .img_olimpica {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .main_lazer {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 }

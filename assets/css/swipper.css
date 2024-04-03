@@ -1,6 +1,74 @@
 @import url("variaveis.css");
 @import url("/assets/css/footer.css");
 
+@media screen and (min-width: 901px) {
+     /* conteudo página index */
+
+     .index {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secao_swipper {
+        width: 100%;
+    }
+
+    .carrosel {
+        display: flex;
+        width: 100%;
+    }
+
+    .container_swipper {
+        margin-top: 15px ;
+    }
+
+    .container_desktop {
+        background-image: url("/assets/img/esporte_e_lazer.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 500px;
+    }
+
+    .container_desktop-fortnite{
+        background-image: url("/assets/img/fortnite_inicial.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 500px;
+    }
+
+    .container_desktop-filme {
+        background-image: url("/assets/img/CurtaMetrageem.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 500px;
+    }
+
+    article {
+        display: flex;
+        width: 100vw;
+    }
+
+    .medias {
+        display: flex;
+        width: 50%;
+    }
+    
+    .img_lazer,
+    .img_game,
+    .img_curta {
+        display: none;
+    }
+    
+}
+    
+    
+
+
+
+
 @media screen and (min-width: 600px) and (max-width: 900px) {
     .secao_swipper {
         max-width: var(--largura-swipper-tablet);
