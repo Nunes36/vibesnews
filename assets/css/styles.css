@@ -1,5 +1,71 @@
 @import url("./variaveis.css");
 
+@media screen and (min-width: 900px) {
+    .header {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--bg-cabecalho-footer);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 0px;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .container_logo {
+        display: flex;
+        width: 200px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .img_logo {
+        width: 40px;
+    }
+
+    .container_hamburguer,
+    .box_hamburguer {
+        display: none;
+    }
+
+    .navegacao {
+        display: flex;
+    }
+
+    .menu_nav {
+        width: 700px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .li_nav {
+        list-style: none;
+        padding: 5px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .li_nav:hover {
+        cursor: pointer;
+        background-color: #c3c3c3;
+        transition: all 0.5s;
+        border-bottom: solid 1px #515151;
+        box-shadow: 1px 1px 1px #6b6b6b;
+    }
+
+    .nav_link {
+        width: 100%;
+        font-family: var(--font-principal);
+        font-weight: 300;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+}
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
     .header {
@@ -43,7 +109,6 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        
     }
 
     @keyframes slideIn {

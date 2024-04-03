@@ -18,14 +18,14 @@
     .img_placa,
     .figura_epic,
     .img_epic {
-        width: 890px; 
+        width: 90vw; 
     }
     
     .box_fortnite,
     .box_personagem,
     .box_placa,
     .box_epic {
-        width: 100%;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         gap: 20px;

@@ -16,13 +16,13 @@
     .img_base,
     .figura_downhill,
     .img_downhill {
-        width: 890px; 
+        width: 90vw; 
     }
     
     .box_lazer,
     .box_base,
     .box_downhill {
-        width: 890px;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         gap: 20px;
