@@ -1,5 +1,34 @@
 @import url("/assets/css/variaveis.css");
 
+@media screen and (min-width: 901px) {
+    .container_olimpica {
+        background-image: url("/assets/img/img_olimpicosInicial-desktop.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .box_olimpica {
+        background-color: var(--bg-box);
+        width: 200px;
+        position: absolute;
+        top: 145px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .title_olimpica {
+        font-family: var(--font-secundaria);    
+        font-size: 12px;
+        font-weight: 700;
+        color: white;
+        padding: 5px;
+    }
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
     .olimpica {
