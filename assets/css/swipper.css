@@ -6,6 +6,7 @@
 
      .index {
         display: flex;
+        height: 100%;
         flex-direction: column;
     }
 
@@ -23,42 +24,49 @@
     }
 
     .container_desktop {
-        background-image: url("/assets/img/esporte_e_lazer.png");
+        background-image: url("/assets/img/esporte_e_lazer-desktop.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-        height: 500px;
+        height: 400px;
     }
 
     .container_desktop-fortnite{
-        background-image: url("/assets/img/fortnite_inicial.png");
+        background-image: url("/assets/img/fortnite_inicial-desktop.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-        height: 500px;
+        height: 400px;
     }
 
     .container_desktop-filme {
-        background-image: url("/assets/img/CurtaMetrageem.png");
+        background-image: url("/assets/img/CurtaMetrageem-desktop.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-        height: 500px;
+        height: 400px;
     }
 
     article {
         display: flex;
-        width: 100vw;
+        width: 100%;
+        margin-top: 10px;
+        padding: 5px 10px 5px 10px;
     }
 
     .medias {
         display: flex;
-        width: 50%;
+        width: 100%;
+        justify-content: space-around;
     }
-    
+
     .img_lazer,
     .img_game,
-    .img_curta {
+    .img_curta,
+    .img_audio,
+    .img_trello,
+    .img_olimpica,
+    .img_games {
         display: none;
     }
     
@@ -188,9 +196,4 @@
         padding: 2px;   
     }
     
-    
-    /* .swipper-none {
-        display: none;
-    } */
-        
 }
