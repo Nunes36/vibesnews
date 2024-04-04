@@ -21,6 +21,43 @@
 
     .container_swipper {
         margin-top: 15px ;
+        position: relative;
+    }
+
+    .box_text {
+        background-color: var(--bg-box);
+        width: 100%;
+        position: absolute;
+        top: 350px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .box_text-curta {
+        background-color: var(--bg-box);
+        width: 100%;
+        position: absolute;
+        top: 302px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .box_text-fortnite {
+        background-color: var(--bg-box);
+        width: 100%;
+        position: absolute;
+        top: 275px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .box_text-lazer {
+        background-color: var(--bg-box);
+        width: 100%;
+        position: absolute;
+        top: 335px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 
     .container_desktop {
@@ -45,6 +82,24 @@
         background-size: cover;
         width: 100vw;
         height: 400px;
+    }
+
+    .title_esportes,
+    .title_fortnite,
+    .title_curta {
+        font-family: var(--font-secundaria);    
+        font-size: 50px;
+        font-weight: 700;
+        color: white;
+        padding: 2px;
+    }
+
+    .sub_curta {
+        font-family: var(--font-secundaria);
+        font-size: 25px;
+        font-weight: 300;
+        color: white;
+        padding: 1px;   
     }
 
     article {
@@ -95,6 +150,8 @@
         margin: 20px 0;
         position: relative;
     }
+
+    
 
     .img_lazer,
     .img_game,
