@@ -1,7 +1,7 @@
 @import url("variaveis.css");
 @import url("/assets/css/footer.css");
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 900px) {
      /* conteudo página index */
 
      .index {
@@ -61,7 +61,7 @@
     }
 
     .container_desktop {
-        background-image: url("/assets/img/esporte_e_lazer-desktop.png");
+        background-image: url("/assets/img/esporte_e_lazer.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
@@ -69,7 +69,7 @@
     }
 
     .container_desktop-fortnite{
-        background-image: url("/assets/img/fortnite_inicial-desktop.png");
+        background-image: url("/assets/img/fortnite-inicial.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
@@ -77,7 +77,7 @@
     }
 
     .container_desktop-filme {
-        background-image: url("/assets/img/CurtaMetrageem-desktop.png");
+        background-image: url("/assets/img/CurtaMetrageem.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
