@@ -4,6 +4,58 @@
 @import url("/assets/css/swipper.css");
 @import url("/assets/css/games.css");
 
+@media screen and (min-width: 900px) {
+    .main_games {
+        height: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .fortnite_tablet {
+        width: 90vw;
+        height: 390px;
+        background-image: url("/assets/img/fortnite-inicial.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 5px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .game_tablet {
+        width: 90vw;
+        height: 390px;
+        background-image: url("/assets/img/marioKart.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0px;
+        border-radius: 10px;
+    }
+
+    .img_game,
+    .img_games {
+        display: none;
+    }
+
+    .text_tablet {
+        width: 90vw;
+        position: absolute;
+        top: 265px;
+        left: 0;
+    }
+
+    .game_text {
+        width: 90vw;
+        position: absolute;
+        top: 325px;
+    }
+
+    .title_game-tablet {
+        font-size: 45px;
+    }
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
     .main_games {
@@ -16,7 +68,7 @@
     .fortnite_tablet {
         width: 90vw;
         height: 390px;
-        background-image: url("/assets/img/fortnite_inicial.png");
+        background-image: url("/assets/img/fortnite-inicial.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 5px;
@@ -61,6 +113,28 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-    }    
+    }
+    
+    .fortnite_tablet {
+        width: 90vw;
+        height: 150px;
+        background-image: url("/assets/img/fortnite-inicial.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 5px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .text_tablet {
+        width: 90vw;
+        position: absolute;
+        top: 90px;
+        left: 0;
+    }
+
+    .img_game {
+        display: none;
+    }
 }
 

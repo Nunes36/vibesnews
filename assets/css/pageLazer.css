@@ -2,6 +2,53 @@
 @import url("/assets/css/styles.css");
 @import url("/assets/css/footer.css");
 
+@media screen and (min-width: 900px) {
+    .lazer {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .figura_lazer,
+    .img_lazer,
+    .figura_base,
+    .img_base,
+    .figura_downhill,
+    .img_downhill {  
+        width: 100vw;
+        height: 350px;
+    }
+
+    .box_lazer,
+    .box_base,
+    .box_downhill {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px;
+    }
+
+    .title_lazer {
+        font-family: var(--font-secundaria);    
+        font-size: 50px;
+        font-weight: 700;
+        color: rgb(52, 48, 48);
+        padding: 2px;
+    }
+    
+    .paragrafo_lazer,
+    .paragrafo_base,
+    .paragrafo_downhill {
+        font-family: var(--font-secundaria);
+        font-size: 25px;
+        font-weight: 300;
+        color: var(--color-paragrafo);
+        padding: 2px;
+    }
+}
+
 @media screen and (min-width: 600px) and (max-width: 900px) {
     .lazer {
         width: 100%;
@@ -15,7 +62,7 @@
     .figura_base,
     .img_base,
     .figura_downhill,
-    .img_downhill {
+    .img_downhill {  
         width: 90vw; 
     }
     
