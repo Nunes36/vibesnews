@@ -61,7 +61,7 @@
     }
 
     .container_desktop {
-        background-image: url("/assets/img/esporte_e_lazer.png");
+        background-image: url("./assets/img/esporte_e_lazer.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
@@ -69,7 +69,7 @@
     }
 
     .container_desktop-fortnite{
-        background-image: url("/assets/img/fortnite-inicial.png");
+        background-image: url("./assets/img/fortnite-inicial.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
