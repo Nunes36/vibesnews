@@ -65,6 +65,12 @@
         padding: 5px;
     }
 
+    .title_logo {
+        font-family: var(--font-principal);
+        font-size: 25px;
+        font-weight: 700;
+    }  
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {

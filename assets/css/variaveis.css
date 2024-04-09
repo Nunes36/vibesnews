@@ -33,24 +33,7 @@ a {
     text-decoration: none;
 }
 
-.chatbot {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    width: 70px;
-    height: 70px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px #ccc;
-    border: solid 2px #effefe;
-    transition: all 1s;
-}
 
-.chatbot:hover {
-    border-radius: 50px;
-    cursor: pointer;
-}
 
 @media screen and (min-width: 900px) {
     main {
