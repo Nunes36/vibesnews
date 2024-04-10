@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 901px) {
     .container_game {
-        background-image: url("/assets/img/marioKart=desktop.png");
+        background-image: url("../img/marioKart.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 200px;

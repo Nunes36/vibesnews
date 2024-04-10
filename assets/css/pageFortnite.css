@@ -1,13 +1,14 @@
-@import url("/assets/css/variaveis.css");
-@import url("/assets/css/styles.css");
-@import url("/assets/css/footer.css");
+@import url("../css/variaveis.css");
+@import url("../css/styles.css");
+@import url("../css/footer.css");
 
 @media screen and (min-width: 900px) {
     .fortnite {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
         align-items: center;
+        margin-top: 5px;
     }
     
     .figura_fortnite,

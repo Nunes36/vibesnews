@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 901px) {
     .container_olimpica {
-        background-image: url("/assets/img/img_olimpicosInicial-desktop.png");
+        background-image: url("../img/img_olimpicosInicial.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 200px;

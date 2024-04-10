@@ -1,7 +1,7 @@
-@import url("variaveis.css");
-@import url("/assets/css/styles.css");
-@import url("/assets/css/footer.css");
-@import url("/pagevisual.html");
+@import url("../css/variaveis.css");
+@import url("../css/styles.css");
+@import url("../css/footer.css");
+/* @import url("../pagevisual.html"); */
 
 @media screen and (min-width: 900px) {
     .trello {
