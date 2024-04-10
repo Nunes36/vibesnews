@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 900px) {
     .container_trello {
-        background-image: url("/assets/img/trello-desktop.png");
+        background-image: url("../img/trello.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 200px;

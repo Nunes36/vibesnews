@@ -1,6 +1,6 @@
-@import url("variaveis.css");
-@import url("/assets/css/styles.css");
-@import url("/assets/css/footer.css");
+@import url("../css/variaveis.css");
+@import url("../css/styles.css");
+@import url("../css/footer.css");
 
 @media screen and (min-width: 900px) {
     .audiovisual {
@@ -9,8 +9,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        padding: 30px;
-    }
+        /* padding: 30px;*/
+        margin-top: 5px;
+    } 
 
     .figura_visual,
     .figura_gravacao,

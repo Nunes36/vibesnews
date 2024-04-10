@@ -1,8 +1,8 @@
 @import url("variaveis.css");
-@import url("/assets/css/styles.css");
-@import url("/assets/css/footer.css");
-@import url("/assets/css/swipper.css");
-@import url("/assets/css/olimpica.css");
+@import url("../css/styles.css");
+@import url("../css/footer.css");
+@import url("../css/swipper.css");
+@import url("../css/olimpica.css");
 
 @media screen and (min-width: 900px) {
     .main_lazer {
@@ -20,7 +20,7 @@
     .container_tablet-lazer {
         width: 90vw;
         height: 390px;
-        background-image: url("/assets/img/esporte_e_lazer-desktop.png");
+        background-image: url("../img/esporte_e_lazer.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 5px;
@@ -30,7 +30,7 @@
     .container_olimpica-tablet {
         width: 90vw;
         height: 390px;
-        background-image: url("/assets/img/img_olimpicosInicial.png");
+        background-image: url("../img/img_olimpicosInicial.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 0px;
