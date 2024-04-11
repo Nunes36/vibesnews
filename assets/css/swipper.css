@@ -1,5 +1,5 @@
 @import url("variaveis.css");
-@import url("/assets/css/footer.css");
+@import url("../css/footer.css");
 
 @media screen and (min-width: 900px) {
      /* conteudo página index */
