@@ -68,7 +68,7 @@
     .fortnite_tablet {
         width: 90vw;
         height: 390px;
-        background-image: url("/assets/img/fortnite-inicial.png");
+        background-image: url("../img/fortnite-inicial.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 5px;
@@ -78,7 +78,7 @@
     .game_tablet {
         width: 90vw;
         height: 390px;
-        background-image: url("/assets/img/marioKart.png");
+        background-image: url("../img/marioKart.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 0px;
@@ -118,7 +118,7 @@
     .fortnite_tablet {
         width: 90vw;
         height: 150px;
-        background-image: url("/assets/img/fortnite-inicial.png");
+        background-image: url("../img/fortnite-inicial.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 5px;

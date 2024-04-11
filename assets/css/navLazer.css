@@ -76,7 +76,7 @@
     .container_tablet-lazer {
         width: 90vw;
         height: 390px;
-        background-image: url("/assets/img/esporte_e_lazer.png");
+        background-image: url("../img/esporte_e_lazer.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 5px;
@@ -86,7 +86,7 @@
     .container_olimpica-tablet {
         width: 90vw;
         height: 390px;
-        background-image: url("/assets/img/img_olimpicosInicial.png");
+        background-image: url("../img/img_olimpicosInicial.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 0px;
